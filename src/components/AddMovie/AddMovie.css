@@ -1,0 +1,18 @@
+#btn{
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    color: rgba(105, 105, 105, 0.63);
+    
+}
+
+.cardBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputArea
+{
+    margin: 5% 0px;
+}

@@ -1,0 +1,14 @@
+.cardFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rateStars{
+    font-size: 22px;
+    
+}
+
+.movieImg{
+    height: 30%;
+}
