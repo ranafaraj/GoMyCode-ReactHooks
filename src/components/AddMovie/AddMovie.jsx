@@ -5,19 +5,14 @@ import "./AddMovie.css" ;
 
 function AddMovie(props) {
    
-        {
+        
             const [show, setShow] = useState(false);
-          
             const handleClose = () => setShow(false);
             const handleShow = () => setShow(true);
-            
             const [newMovie, setNewMovie] = useState({title: "", description:"", posterUrl: "", rate:0, trailerUrl:" " })
-            
             const handleChange = (e) => {
               setNewMovie({...newMovie, [e.target.name]:e.target.value})
-
             }
-
             const handleSubmit = () => {
               const {title, description, posterUrl, rate, trailerUrl } = newMovie
               if(title && description && posterUrl && rate && trailerUrl)
@@ -26,9 +21,9 @@ function AddMovie(props) {
                 props.setfirstRender(false)
                 handleClose() }
 
-                else{alert("There is an empty field, please check again");} 
-                 
+                else{alert("There is an empty field, please check again");}    
             }
+          
             return (
               <>
                 <Button id="btn" variant="primary" onClick={handleShow}>
@@ -57,10 +52,8 @@ function AddMovie(props) {
                 </Modal>
               </>
             );
-          }
+        } export default AddMovie
+        
           
-          
-    
-}
+      
 
-export default AddMovie

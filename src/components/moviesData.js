@@ -1,5 +1,6 @@
 const moviesData = [
     {
+        id :Math.random(),
         title: "Harry Potter and the Philosopher's Stone",
         description:
             "Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and is invited to study at Hogwarts. Even as he escapes a dreary life and enters a world of magic, he finds trouble awaiting him.",
@@ -9,6 +10,7 @@ const moviesData = [
         trailerUrl: "https://www.youtube.com/embed/VyHV0BRtdxo"
     },
     {
+        id :Math.random(),
         title: "Harry Potter and the Chamber of Secrets",
         description:
             "A house-elf warns Harry against returning to Hogwarts, but he decides to ignore it. When students and creatures at the school begin to get petrified, Harry finds himself surrounded in mystery.",
@@ -17,6 +19,7 @@ const moviesData = [
         trailerUrl: "https://www.youtube.com/embed/1bq0qff4iF8"
     },
     {
+        id :Math.random(),
         title: "Harry Potter and the Prisoner of Azkaban",
         description:
             "Harry, Ron and Hermoine return to Hogwarts just as they learn about Sirius Black and his plans to kill Harry. However, when Harry runs into him, he learns that the truth is far from reality.",
@@ -26,6 +29,7 @@ const moviesData = [
         trailerUrl: "https://www.youtube.com/embed/1ZdlAg3j8nI"
     },
     {
+        id :Math.random(),
         title: "Harry Potter and the Goblet of Fire",
         description:
             "When Harry is chosen as a fourth participant of the inter-school Triwizard Tournament, he is unwittingly pulled into a dark conspiracy that endangers his life.",
@@ -35,6 +39,7 @@ const moviesData = [
         trailerUrl: "https://www.youtube.com/embed/Y6YBKdmOlM8"
     },
     {
+        id :Math.random(),
         title: "Harry Potter and the Order of the Phoenix",
         description:
             "Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who, in turn, look to undermine Dumbledore's authority at Hogwarts and discredit Harry.",
@@ -44,6 +49,7 @@ const moviesData = [
         trailerUrl: "https://www.youtube.com/embed/cIJ8ma0kKtY"
     },
     {
+        id :Math.random(),
         title: "Harry Potter and the Half-Blood Prince",
         description:
             "Dumbledore and Harry Potter learn more about Voldemort's past and his rise to power. Meanwhile, Harry stumbles upon an old potions textbook belonging to a person calling himself the Half-Blood Prince.",
@@ -53,6 +59,7 @@ const moviesData = [
         trailerUrl: "https://www.youtube.com/embed/QFxN2oDKk0E"
     },
     {
+        id :Math.random(),
         title: "Harry Potter and the Deathly Hallows - Part I",
         description:
             "After Voldemort takes over the Ministry of Magic, Harry, Ron and Hermione are forced into hiding. They try to decipher the clues left to them by Dumbledore to find and destroy Voldemort's Horcruxes.",
@@ -62,6 +69,7 @@ const moviesData = [
         trailerUrl: "https://www.youtube.com/embed/OFVGCUIXJls"
     },
     {
+        id :Math.random(),
         title: "Harry Potter and the Deathly Hallows – Part 2",
         description:
             "Harry, Ron and Hermione race against time to destroy the remaining Horcruxes. Meanwhile, the students and teachers unite to defend Hogwarts against Lord Voldemort and the Death Eaters.",
